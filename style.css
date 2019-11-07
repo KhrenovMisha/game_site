@@ -1,0 +1,439 @@
+/*@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';*/
+
+.news-list {
+    display: flex;
+
+    flex-wrap: wrap;
+}
+.news-list_text{
+    display: none;
+}
+.news-list_img img {
+    height: auto;
+    width: 100%;
+}
+
+.news-list_item {
+    flex: 1;
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    background-image: url("./img/img3.jpg");
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 250px 0;
+}
+
+.header::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .4);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.news {
+    color: white;
+    background-color: black;
+    font: 20px Cinzel serif;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 5px;
+}
+
+.about-server {
+    display: flex;
+    padding: 75px 0;
+    color: white;
+    background-color: black;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-image: url("./img/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.news > h2 {
+    margin-top: 0;
+}
+
+
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 15px;
+    color: #fff;
+    border: 2px solid rgb(243 66 29);
+    border-radius: 5px;
+    background-color: rgb(243 66 29);
+    text-transform: uppercase;
+}
+
+.button-link:hover {
+    color: rgb(243 66 29);
+    background-color: #fff;
+}
+
+.header-h {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.header-welcome {
+    font-size: 30px;
+}
+
+.form-input {
+    padding: 20px;
+    width: 100%;
+}
+
+.news_hover {
+    position: relative;
+}
+
+.news-list_img img {
+    display: block;
+    min-width: 300px;
+
+}
+
+.overlay_news {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: gray;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.news_hover:hover .overlay_news {
+    bottom: 0;
+    height: 100%;
+}
+
+.text-hover {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    text-align: left;
+}
+
+.marker {
+    display: inline-block;
+    margin: 20px;
+    color: rgb(243 66 29);
+}
+
+.form-registration-section {
+    flex-direction: column;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    background-color: #000000;
+    background-size: cover;
+}
+
+.form-registration {
+    border: 3px solid transparent;
+    width: 280px;
+    padding: 10px;
+}
+
+.form-registration h1 {
+    padding: 10px 0;
+}
+
+.article-header {
+    padding: 10px 0;
+    border-bottom: 3px solid rgb(243 66 29);
+}
+
+.form-header {
+    display: inline-block;
+    border-bottom: rgb(243 66 29) 3px solid;
+}
+
+.text-form {
+    padding: 8px 0;
+    margin: 8px 0;
+    overflow: hidden;
+    border-bottom: 2px rgb(243 66 29) solid;
+}
+
+.btn-form {
+    background: none;
+    color: white;
+    width: 100%;
+    border: 3px solid rgb(243 66 29);
+    padding: 10px;
+}
+
+.btn-form:hover {
+    color: #fff;
+    border: 3px solid rgb(243 66 29);
+    border-radius: 5px;
+    background-color: rgb(243 66 29);
+    text-transform: uppercase;
+}
+
+.text-form input {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.container-forms {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.pricing-table {
+    color: white;
+    padding: 50px 0;
+    background-image: url("./img/img liokshina.jpg");
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 250px 0;
+}
+
+.price-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 20px;
+    color: #fff;
+    border: 2px solid rgb(243 66 29);
+    border-radius: 5px;
+    background-color: rgb(243 66 29);
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: rgb(243 66 29);
+    background-color: #fff;
+}
+
+.price-element {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    margin: 10px 10px;
+    flex: 1;
+}
+
+.price-element:hover {
+    background-color: rgb(44 29 44);
+}
+
+.price-header {
+    width: 100%;
+    height: auto;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.price-number {
+    width: 100%;
+    height: auto;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.price-time {
+    padding: 10px;
+}
+
+.header-nav_link {
+    color: #fff;
+    margin: 10px;
+}
+
+/**
+    Menu
+ */
+
+.header-nav {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: color 0.3s ease;
+}
+
+.main-navigation {
+    display: block;
+    position: relative;
+    top: -219px;
+    left: 26px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.main-navigation_checkbox {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+    -webkit-touch-callout: none;
+}
+
+.main-navigation span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #fff;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 4px 0;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    opacity 0.55s ease;
+}
+
+.main-navigation span:first-child {
+    transform-origin: 0 0;
+}
+
+.main-navigation span:nth-last-child(2) {
+    transform-origin: 0 100%;
+}
+
+.main-navigation input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #ffffff;
+}
+
+.main-navigation input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+.main-navigation input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+.main-navigation input:checked ~ ul {
+    transform: none;
+}
+
+.header-nav_link:hover {
+    color: rgb(243 66 29);
+}
+
+@media (min-width: 992px) {
+    .wrap-about-text {
+        max-width: 50%;
+    }
+
+    .news-list_item {
+        margin: 5px 15px;
+    }
+
+    .news {
+        padding: 20px;
+    }
+
+    .header-welcome {
+        font-size: 75px;
+    }
+
+    .about-server {
+        background-size: contain;
+    }
+
+    .header-nav {
+        position: absolute;
+        top: -216px;
+        right: -64px;
+    }
+
+    .donut-list {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .header-nav {
+        padding: 50px;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .main-navigation {
+        display: block;
+        position: static;
+    }
+
+    .main-navigation input {
+        opacity: 0;
+    }
+
+    .main-navigation span {
+        display: block;
+        background: none;
+    }
+    .news-list_text{
+        display: block;
+    }
+}
